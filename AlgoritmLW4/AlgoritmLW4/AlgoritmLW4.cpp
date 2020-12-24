@@ -97,15 +97,45 @@ int main()
     int startNode = getValue(inputFile, str);
     int endNode = getValue(inputFile, str);
     int graphMatrix[max_node_value][max_node_value];
+    str = "";
+    while (!inputFile.eof()) {
+        getline(inputFile, str);
+        string value = "";
+        int x = 0;
+        bool gotX = false;
+        int y = 0;
+        bool gotY = false;
+        for (int i = 0; i < str.length(); i++)
+        {
+            if (str[i] != '-') {
+                value += str[i];
+            }
+            else {
+                gotX = true;
+                x = StrToInt(value);
+                value = "";
+            }
+            if ( (str[i] != '=') && (gotX = true) ) {
+                value += str[i];
+            }
+            else if((str[i] == '=') && (gotX = true))
+            {
+                 y = StrToInt(value);
+                 value = "";
+            }
+        }
+        cout << "x = " << x << ", y = " << y << endl;
+    }
 
     for (int i = 0; i < nodeValue; i++)
     {
         for (int j = 0; j < nodeValue; j++)
         {
-            graphMatrix[i][ j] = 0;
+            graphMatrix[i][j] = 0;
+            cout << graphMatrix[i][j];
         }
+        cout << endl;
     }
-
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

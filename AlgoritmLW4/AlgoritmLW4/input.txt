@@ -1,4 +1,4 @@
-Nodes Count: 3
+Nodes Count: 4
 Start: 3
 End: 1
 1->2=3

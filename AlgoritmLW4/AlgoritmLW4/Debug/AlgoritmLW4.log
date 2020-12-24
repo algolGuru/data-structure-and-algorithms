@@ -1,5 +1,6 @@
 ﻿  AlgoritmLW4.cpp
-C:\Users\user\source\repos\AlgoritmLW4\AlgoritmLW4\AlgoritmLW4.cpp(51,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\user\source\repos\AlgoritmLW4\AlgoritmLW4\AlgoritmLW4.cpp(61,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\user\source\repos\AlgoritmLW4\AlgoritmLW4\AlgoritmLW4.cpp(78,9): warning C4101: value: неиспользованная локальная переменная
-  AlgoritmLW4.vcxproj -> C:\Users\user\source\repos\AlgoritmLW4\Debug\AlgoritmLW4.exe
+C:\Users\gleba\source\repos\data-structure-and-algorithms\AlgoritmLW4\AlgoritmLW4\AlgoritmLW4.cpp(51,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\gleba\source\repos\data-structure-and-algorithms\AlgoritmLW4\AlgoritmLW4\AlgoritmLW4.cpp(61,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\gleba\source\repos\data-structure-and-algorithms\AlgoritmLW4\AlgoritmLW4\AlgoritmLW4.cpp(108,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\gleba\source\repos\data-structure-and-algorithms\AlgoritmLW4\AlgoritmLW4\AlgoritmLW4.cpp(78,9): warning C4101: value: неиспользованная локальная переменная
+  AlgoritmLW4.vcxproj -> C:\Users\gleba\source\repos\data-structure-and-algorithms\AlgoritmLW4\Debug\AlgoritmLW4.exe
